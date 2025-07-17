@@ -1,7 +1,12 @@
 import React from "react";
+import AdvertiseTop from "./AdvertiseTop";
 
 const Header = () => {
-  return <>Header</>;
+  return (
+    <>
+      <AdvertiseTop />
+    </>
+  );
 };
 
 export default Header;

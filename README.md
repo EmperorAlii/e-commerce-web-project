@@ -28,6 +28,13 @@ This is a modern e-commerce homepage built with **React**, **Vite**, and **Tailw
   <Footer />
   ```
 
+### ✅ Second Commit
+
+- ✔️ Installed `Poppins` and `Inter` font.
+- ✔️ Installed React Icons.
+- ✔️ Completed `Flex`, `AdvertiseTop`, `Container` components.
+- ✔️ Added `Home` page with a basic layout.
+
 ---
 
 ## 📄 License
