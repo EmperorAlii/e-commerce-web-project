@@ -35,6 +35,13 @@ This is a modern e-commerce homepage built with **React**, **Vite**, and **Tailw
 - ✔️ Completed `Flex`, `AdvertiseTop`, `Container` components.
 - ✔️ Added `Home` page with a basic layout.
 
+### ✅ Third Commit
+
+- ✔️ Created `NavBar` component.
+- ✔️ Implemented responsive navigation with dropdowns.
+- ✔️ Added search functionality in the navigation bar.
+- ✔️ Improved styling for better user experience.
+
 ---
 
 ## 📄 License
