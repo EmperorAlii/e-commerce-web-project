@@ -42,6 +42,11 @@ This is a modern e-commerce homepage built with **React**, **Vite**, and **Tailw
 - ✔️ Added search functionality in the navigation bar.
 - ✔️ Improved styling for better user experience.
 
+### ✅ Fourth Commit
+
+- ✔️ Added `Button` and `Footer` components.
+- ✔️ Implemented a responsive footer with links and social media icons.
+
 ---
 
 ## 📄 License
