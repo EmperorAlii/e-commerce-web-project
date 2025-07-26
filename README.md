@@ -10,6 +10,8 @@ This is a modern e-commerce homepage built with **React**, **Vite**, and **Tailw
 - 🌐 React Router DOM (v7.0+)
 - 🎨 Tailwind CSS
 - 📁 Component-based structure
+- 📦 React Icons
+- 📸 Slick Carousel for sliders
 
 ---
 
@@ -46,6 +48,12 @@ This is a modern e-commerce homepage built with **React**, **Vite**, and **Tailw
 
 - ✔️ Added `Button` and `Footer` components.
 - ✔️ Implemented a responsive footer with links and social media icons.
+
+### ✅ Fifth Commit
+
+- ✔️ Created `Banner`, `BannerSlider` component with a slider.
+- ✔️ Integrated `react-slick` for the slider functionality.
+- ✔️ Added banner images and text overlays.
 
 ---
 

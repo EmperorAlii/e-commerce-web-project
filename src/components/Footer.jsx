@@ -20,7 +20,7 @@ import { RiLinkedinLine } from "react-icons/ri";
 const Footer = () => {
   return (
     <>
-      <div className="bg-black text-white font-primary lg:absolute lg:bottom-0 w-full">
+      <footer className="bg-black text-white font-primary  w-full">
         <Container className="pt-20">
           <Flex className="flex-wrap justify-between gap-y-10">
             {/* First Column of Footer */}
@@ -121,7 +121,7 @@ const Footer = () => {
             </List>
           </Flex>
         </Container>
-      </div>
+      </footer>
     </>
   );
 };

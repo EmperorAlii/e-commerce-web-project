@@ -12,7 +12,47 @@
   --breakpoint-xl: 1280px;
 }
 
-.navList:hover,
 .navBorder {
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.navList {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.navList::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #3333333d;
+  transition: width 0.5s ease-in-out;
+}
+
+.navList:hover::after {
+  width: 100%;
+}
+
+.slick-dots li button:before {
+  content: none !important;
+}
+
+.slick-dots li button {
+  content: none !important;
+  position: absolute !important;
+  top: -35px !important;
+  background: #d3d3d3 !important;
+  @apply rounded-full !h-2.5 !w-2.5;
+}
+
+.slick-dots li.slick-active button {
+  @apply !bg-red-600 border-2 border-white rounded-full;
+  width: 16px !important; /* bigger size */
+  height: 16px !important;
+  margin-top: -2px; /* move up slightly to align */
+  transition: all 0.3s ease-in-out;
 }

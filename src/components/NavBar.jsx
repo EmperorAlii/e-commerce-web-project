@@ -4,6 +4,7 @@ import Flex from "./Flex";
 import List from "./List";
 import ListItem from "./ListItem";
 
+// assets
 import logo from "../assets/siteLogo.png";
 import { CiSearch, CiHeart, CiMenuBurger } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
@@ -13,7 +14,7 @@ const NavBar = () => {
   const [showSearch, setShowSearch] = useState(false);
 
   return (
-    <div className="navBorder h-14 lg:h-[94px] flex items-center relative z-50 bg-white">
+    <nav className="navBorder h-14 lg:h-[94px] flex items-center relative z-50 bg-white">
       <Container className="lg:pt-6">
         <Flex className="justify-between items-center h-full">
           {/* Logo */}
@@ -75,7 +76,7 @@ const NavBar = () => {
           </div>
         )}
       </Container>
-    </div>
+    </nav>
   );
 };
 
