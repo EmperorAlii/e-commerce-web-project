@@ -18,7 +18,7 @@ const BannerSlider = ({ className }) => {
   };
 
   return (
-    <div className={`${className} relative w-3/4 h-full`}>
+    <div className={`${className} relative w-full lg:w-3/4 h-full`}>
       <Slider {...settings}>
         <div>
           <img src={bannerImage} alt="Banner" />

@@ -24,7 +24,7 @@ const NavBar = () => {
 
           {/* Desktop Nav List */}
           <List className="hidden lg:block">
-            <Flex className="gap-12 text-[16px] font-medium">
+            <Flex className="gap-12 text-[16px] font-medium flex-col lg:flex-row">
               <ListItem className="navList">Home</ListItem>
               <ListItem className="navList">Contact</ListItem>
               <ListItem className="navList">About</ListItem>
@@ -62,8 +62,8 @@ const NavBar = () => {
 
         {/* Mobile Dropdown */}
         {showMenu && (
-          <div className="absolute top-full left-0 w-full bg-black shadow-md px-4 py-4 lg:hidden z-40 text-white">
-            <ul className="space-y-3 text-base font-medium">
+          <div className="flex flex-col pl-11 absolute top-full left-0 w-full bg-black shadow-md px-4 py-4 lg:hidden z-40 text-white">
+            <ul className=" gap-y-3 text-base font-medium flex flex-col ">
               <li className="navList">Home</li>
               <li className="navList">Contact</li>
               <li className="navList">About</li>

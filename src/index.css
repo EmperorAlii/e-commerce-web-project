@@ -51,8 +51,12 @@
 
 .slick-dots li.slick-active button {
   @apply !bg-red-600 border-2 border-white rounded-full;
-  width: 16px !important; /* bigger size */
+  width: 16px !important;
   height: 16px !important;
-  margin-top: -2px; /* move up slightly to align */
+  margin-top: -2px;
   transition: all 0.3s ease-in-out;
+}
+
+.banner-list li {
+  @apply hover:bg-black/10 hover:text-red-600 transition-colors duration-600;
 }

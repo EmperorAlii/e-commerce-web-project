@@ -55,6 +55,12 @@ This is a modern e-commerce homepage built with **React**, **Vite**, and **Tailw
 - ✔️ Integrated `react-slick` for the slider functionality.
 - ✔️ Added banner images and text overlays.
 
+### ✅ Sixth Commit
+
+- ✔️ Completed `Banner`, `BannerSlider` component with category list.
+- ✔️ Added category list with hover effects.
+- ✔️ Made the banner responsive with Tailwind CSS.
+
 ---
 
 ## 📄 License
