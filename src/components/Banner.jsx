@@ -20,7 +20,7 @@ const Banner = () => {
         <Flex className="flex-col lg:flex-row justify-between items-start">
           <div className="border-r-0 lg:border-r-3 border-r-black/30   pr-20 pt-10">
             <h2
-              className="flex gap-2.5 items-center text-md font-bold mb-6 hover:cursor-pointer"
+              className="flex gap-2.5 items-center text-md font-bold font-primary mb-6 hover:cursor-pointer"
               onClick={() => setShowCategory(!showCategory)}
             >
               <BiCategory /> Category
@@ -48,7 +48,7 @@ const Banner = () => {
             </List>
           </div>
 
-          <BannerSlider className="pt-10" />
+          <BannerSlider className="pt-23" />
         </Flex>
       </Container>
     </>

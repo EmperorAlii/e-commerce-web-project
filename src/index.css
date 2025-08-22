@@ -60,3 +60,17 @@
 .banner-list li {
   @apply hover:bg-black/10 hover:text-red-600 transition-colors duration-600;
 }
+
+.glow-box {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-box:hover {
+  box-shadow: 0 0 10px rgba(255, 38, 0, 0.8),
+    /* Inner glow */ 0 0 20px rgba(212, 84, 9, 0.6),
+    /* Medium glow */ 0 0 30px rgba(223, 50, 7, 0.4); /* Outer glow */
+}
+
+.style-module_emptyIcons__Bg-FZ {
+  display: flex !important;
+}

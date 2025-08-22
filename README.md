@@ -61,6 +61,13 @@ This is a modern e-commerce homepage built with **React**, **Vite**, and **Tailw
 - ✔️ Added category list with hover effects.
 - ✔️ Made the banner responsive with Tailwind CSS.
 
+### ✅ Seventh Commit
+
+- ✔️ Created `Card` component for product display.
+- ✔️ Integrated `react-rating-stars-component` for star ratings.
+- ✔️ Added product image, title, price, and action icons.
+- ✔️ Completed `FlashSales` section with product cards.
+
 ---
 
 ## 📄 License
