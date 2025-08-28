@@ -68,6 +68,11 @@ This is a modern e-commerce homepage built with **React**, **Vite**, and **Tailw
 - ✔️ Added product image, title, price, and action icons.
 - ✔️ Completed `FlashSales` section with product cards.
 
+### ✅ Eighth Commit
+
+- ✔️ Created `CountdownTimer` component.
+- ✔️ Integrated `CountdownTimer` into `FlashSales` section.
+
 ---
 
 ## 📄 License

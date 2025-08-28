@@ -5,6 +5,7 @@ import Container from "./Container";
 import Flex from "./Flex";
 import Card from "./Card";
 import Slick from "./Slick";
+import CountdownTimer from "./CountdownTimer";
 
 // icons
 import { GrLinkNext, GrLinkPrevious } from "react-icons/gr";
@@ -23,20 +24,10 @@ const FlashSales = () => {
           </div>
         </Flex>
 
-        {/* Title & nav */}
+        {/* Title */}
         <Flex>
           <h2 className="font-secondary text-4xl font-semibold">Flash Sales</h2>
-          <Flex className="ml-auto gap-2">
-            {/* Control buttons
-            <GrLinkPrevious
-              onClick={() => sliderRef.current?.slickPrev()}
-              className="bg-gray-200 h-8 w-8 p-1.5 rounded-full cursor-pointer glow-box"
-            />
-            <GrLinkNext
-              onClick={() => sliderRef.current?.slickNext()}
-              className="bg-gray-200 h-8 w-8 p-1.5 rounded-full cursor-pointer glow-box"
-            /> */}
-          </Flex>
+          <CountdownTimer />
         </Flex>
 
         {/* Carousel */}
