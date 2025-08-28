@@ -73,6 +73,14 @@ This is a modern e-commerce homepage built with **React**, **Vite**, and **Tailw
 - ✔️ Created `CountdownTimer` component.
 - ✔️ Integrated `CountdownTimer` into `FlashSales` section.
 
+### Ninth Commit
+
+- ✔️ Added Bangla and English language selector in the `AdvertiseTop` component.
+- ✔️ Added "View All Products" button in `FlashSales` section.
+- ✔️ Created `BrowseByCategory` component.
+- ✔️ Added category cards with images and titles.
+- ✔️ Integrated `BrowseByCategory` into the `Home` page.
+
 ---
 
 ## 📄 License

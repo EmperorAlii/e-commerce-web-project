@@ -1,16 +1,17 @@
-import React, { useRef } from "react";
+import React from "react";
+import { useRef } from "react";
 
 // components
 import Container from "./Container";
 import Flex from "./Flex";
 import Card from "./Card";
+import CategoryCard from "./CategoryCard";
 import Slick from "./Slick";
-import CountdownTimer from "./CountdownTimer";
 
 // icons
 import { GrLinkNext, GrLinkPrevious } from "react-icons/gr";
 
-const FlashSales = () => {
+const BrowseByCategory = () => {
   const sliderRef = useRef(null);
 
   return (
@@ -20,45 +21,45 @@ const FlashSales = () => {
         <Flex className="items-center gap-2 mb-6">
           <div className="h-10 w-5 bg-primary rounded-md"></div>
           <div className="font-primary font-semibold text-[16px] text-primary">
-            Today's
+            Categories
           </div>
         </Flex>
 
         {/* Title */}
         <Flex>
-          <h2 className="font-secondary text-4xl font-semibold">Flash Sales</h2>
-          <CountdownTimer />
+          <h2 className="font-secondary text-4xl font-semibold">
+            Browse By Category
+          </h2>
         </Flex>
 
         {/* Carousel */}
         <Slick
           ref={sliderRef}
-          slidesToShow={4}
+          slidesToShow={6}
           dots={false}
           slickPrev={<GrLinkPrevious />}
           slickNext={<GrLinkNext />}
           className="mt-8"
         >
           <div className="p-2">
-            <Card />
+            <CategoryCard />
           </div>
           <div className="p-2">
-            <Card />
+            <CategoryCard />
           </div>
           <div className="p-2">
-            <Card />
+            <CategoryCard />
           </div>
           <div className="p-2">
-            <Card />
+            <CategoryCard />
+          </div>
+          <div className="p-2">
+            <CategoryCard />
+          </div>
+          <div className="p-2">
+            <CategoryCard />
           </div>
         </Slick>
-
-        {/* Button */}
-        <div className="flex justify-center">
-          <button className="w-[234px] h-[56px] text-white bg-primary rounded-sm mt-9 hover:shadow-lg hover:scale-105 hover:bg-[#6b6563] transition-all duration-300">
-            View All Products
-          </button>
-        </div>
 
         <div className="border-b-1 border-gray-300 w-full mt-[60px] mb-20"></div>
       </Container>
@@ -66,4 +67,4 @@ const FlashSales = () => {
   );
 };
 
-export default FlashSales;
+export default BrowseByCategory;
