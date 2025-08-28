@@ -48,9 +48,13 @@ const NavBar = () => {
                 ${showSearch ? "block" : "hidden"} lg:block`}
             />
 
-            {/* Icons hidden on small screens, moved to dropdown */}
-            <CiHeart className="text-2xl hidden lg:block" />
-            <IoCartOutline className="text-2xl hidden lg:block" />
+            {/* Desktop Heart and Cart */}
+            <button className="hidden lg:block">
+              <CiHeart className="text-2xl cursor-pointer hover:text-primary hover:font-bold transition-colors duration-300" />
+            </button>
+            <button className="hidden lg:block">
+              <IoCartOutline className="text-2xl cursor-pointer hover:text-primary hover:font-bold transition-colors duration-300" />
+            </button>
 
             {/* Mobile Menu Icon */}
             <CiMenuBurger
@@ -63,15 +67,22 @@ const NavBar = () => {
         {/* Mobile Dropdown */}
         {showMenu && (
           <div className="flex flex-col pl-11 absolute top-full left-0 w-full bg-black shadow-md px-4 py-4 lg:hidden z-40 text-white">
-            <ul className=" gap-y-3 text-base font-medium flex flex-col ">
+            <ul className="gap-y-3 text-base font-medium flex flex-col">
               <li className="navList">Home</li>
               <li className="navList">Contact</li>
               <li className="navList">About</li>
               <li className="navList">Sign Up</li>
             </ul>
+
             <div className="flex justify-start items-center gap-4 mt-4">
-              <CiHeart className="text-2xl" />
-              <IoCartOutline className="text-2xl" />
+              {/* Mobile Heart */}
+              <button>
+                <CiHeart className="text-2xl cursor-pointer text-white" />
+              </button>
+              {/* Mobile Cart */}
+              <button>
+                <IoCartOutline className="text-2xl cursor-pointer text-white" />
+              </button>
             </div>
           </div>
         )}
